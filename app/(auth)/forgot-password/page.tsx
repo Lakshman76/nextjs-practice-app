@@ -1,3 +1,7 @@
 export default function ForgotPassword() {
-  return <h1>Forgot Password</h1>;
+  return (
+    <div>
+      <button className="border-2 border-white p-2 m-2">Forgot Password</button>
+    </div>
+  );
 }
